@@ -1,0 +1,22 @@
+#weather-results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.weather-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+.weather-card h2 {
+    color: #333;
+}
+
+.weather-card p {
+    color: #555;
+}
